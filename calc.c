@@ -1,3 +1,4 @@
+#include sstdio.h
 void main()
 {
 int a,b,c,d;
