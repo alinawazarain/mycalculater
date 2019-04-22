@@ -30,6 +30,7 @@ case 3:printf("\n enter a first number");
        printf("\n enter a second number");
        scanf("\n %d",&b);
        printf("\n multiplication of two  numbers is %d",(a*b));
+       printf("ahmed");
        break;
 
 case 4:printf("\n enter a first number");
