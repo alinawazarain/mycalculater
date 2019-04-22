@@ -7,7 +7,8 @@ printf("\n1)addition");
 printf("\n2)subtraction");
 printf("\n3)multiplication");
 printf("\n4)division");
-printf("\n5)exit");
+       printf("\n5)square");
+printf("\n6)exit");
 printf("\n enter choice 1-5");
 scanf("%d",&choice);
 switch(choice);
@@ -38,7 +39,12 @@ case 4:printf("\n enter a first number");
        scanf("\n %d",&b);
        printf("\n division of two  numbers is %d",(a/b));
        break;
-case 5:exit(0);
+       
+case 5:printf("\n enter a  number");
+       scanf("\n %d",&a);
+       printf("\n square of two  numbers is %d",(a*a));
+       break;
+case 6:exit(0);
 default:printf("\n invalid choice program exit");  
 } 
 getch();
